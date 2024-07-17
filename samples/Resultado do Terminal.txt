@@ -1,0 +1,72 @@
+Last login: Thu Jul 11 23:33:20 on ttys005
+user@MacBook-Air-SOUCH ~ % install streamlit
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+user@MacBook-Air-SOUCH ~ % 
+  [Restaurado 11 de jul. de 2024, 23:58:34]
+Last login: Thu Jul 11 23:52:08 on ttys004
+Restored session: Thu Jul 11 23:58:05 IST 2024
+user@MacBook-Air-SOUCH ~ % pip install streamlit
+zsh: command not found: pip
+user@MacBook-Air-SOUCH ~ % streamlit hello
+zsh: command not found: streamlit
+user@MacBook-Air-SOUCH ~ % python3 --version
+
+Python 3.12.4
+user@MacBook-Air-SOUCH ~ % python3 -m pip install --upgrade pip
+
+Requirement already satisfied: pip in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (24.1.2)
+user@MacBook-Air-SOUCH ~ % python3 -m pip install --user pipenv
+
+Requirement already satisfied: pipenv in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (2024.0.1)
+Requirement already satisfied: certifi in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pipenv) (2024.7.4)
+Requirement already satisfied: setuptools>=67 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pipenv) (70.3.0)
+Requirement already satisfied: virtualenv>=20.24.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pipenv) (20.26.3)
+Requirement already satisfied: distlib<1,>=0.3.7 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from virtualenv>=20.24.2->pipenv) (0.3.8)
+Requirement already satisfied: filelock<4,>=3.12.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from virtualenv>=20.24.2->pipenv) (3.15.4)
+Requirement already satisfied: platformdirs<5,>=3.9.1 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from virtualenv>=20.24.2->pipenv) (4.2.2)
+user@MacBook-Air-SOUCH ~ % source ~/.zshrc
+
+user@MacBook-Air-SOUCH ~ % pipenv --version
+
+zsh: command not found: pipenv
+user@MacBook-Air-SOUCH ~ % pip install streamlit
+
+zsh: command not found: pip
+user@MacBook-Air-SOUCH ~ % python3 -m pip install --user pipenv
+Requirement already satisfied: pipenv in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (2024.0.1)
+Requirement already satisfied: certifi in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pipenv) (2024.7.4)
+Requirement already satisfied: setuptools>=67 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pipenv) (70.3.0)
+Requirement already satisfied: virtualenv>=20.24.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from pipenv) (20.26.3)
+Requirement already satisfied: distlib<1,>=0.3.7 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from virtualenv>=20.24.2->pipenv) (0.3.8)
+Requirement already satisfied: filelock<4,>=3.12.2 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from virtualenv>=20.24.2->pipenv) (3.15.4)
+Requirement already satisfied: platformdirs<5,>=3.9.1 in /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages (from virtualenv>=20.24.2->pipenv) (4.2.2)
+user@MacBook-Air-SOUCH ~ % nano ~/.zshrc
+
+  UW PICO 5.09                File: /Users/user/.zshrc                Modified  
+
+export PATH="$HOME/.local/bin:$PATH"
+source ~/.zshrc                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
